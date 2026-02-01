@@ -1,0 +1,44 @@
+{
+  "id": 12537,
+  "title": "Run multi-model research analysis and email reports with GPT-4, Claude and NVIDIA NIM",
+  "slug": "run-multi-model-research-analysis-and-email-reports-with-gpt-4-claude-and-nvidia-nim-12537",
+  "description": "HOW IT WORKSThis workflow automates end-to-end research analysis by coordinating multiple AImodels—including NVIDIA NIM (Llama), OpenAI GPT-4, and Claude to analyzeuploaded documents, extract insights, and generate polished reports deliveredvia email. Built for researchers, academics, and business analysts, it enablesfast, accurate synthesis of information from multiple sources. The workfloweliminates the manual burden of document review, cross-referencing, and reportcompilation by running parallel AI analyses, aggregating and validating modeloutputs, and producing structured, publication-ready documents in minutesinstead of hours. Data flows from Google Sheets (user input) through documentextraction, parallel AI processing, response aggregation, quality validation,structured storage in Google Sheets, automated report formatting, and finaldelivery via Gmail with attachments.SETUP STEPS 1. Configure API credentials 2. Add OpenAI API key with GPT-4 access enabled 3. Connect Anthropic Claude API credentials 4. Set up Google Sheets integration with read/write permissions 5. Configure Gmail credentials with OAuth2 authentication for automated email 6. Customize email templates and report formatting preferencesPREREQUISITESNVIDIA NIM API access, OpenAI API key (GPT-4 enabled), Anthropic Claude API keyUSE CASESAcademic literature reviews, competitive intelligence reportsCUSTOMIZATIONAdjust AI model parameters (temperature, tokens) per analysis depth needsBENEFITSReduces research analysis time by 80%, eliminates single-source bias throughmulti-model consensus",
+  "metadescription": "Automate research analysis with NVIDIA NIM, GPT‑4 & Claude—extract insights from documents, validate outputs, and email polished reports in minutes.",
+  "summary": "Automates end-to-end research analysis by orchestrating NVIDIA NIM (Llama), GPT‑4, and Claude to turn uploaded documents into polished, email-ready reports  \nRuns parallel model reviews, then aggregates, cross-checks, and validates outputs to reduce bias and boost accuracy  \nPipelines data from Google Sheets → document extraction → AI processing → structured Sheet updates → report formatting → Gmail delivery with attachments  \nIdeal for academic literature reviews and competitive intelligence, cutting analysis time by ~80%  \nFlexible setup: API credentials, Sheets/Gmail integrations, and customizable prompts, temperatures, tokens, and email/report templates",
+  "date": "7 Jan 2026",
+  "createdAtRaw": "2026-01-07T09:54:53.094+00:00",
+  "categories": [
+    "Document Extraction",
+    "AI RAG"
+  ],
+  "nodeTypes": [
+    "n8n-nodes-base.if",
+    "n8n-nodes-base.set",
+    "n8n-nodes-base.code",
+    "n8n-nodes-base.wait",
+    "n8n-nodes-base.merge",
+    "n8n-nodes-base.slack",
+    "n8n-nodes-base.switch",
+    "n8n-nodes-base.webhook",
+    "n8n-nodes-base.postgres",
+    "n8n-nodes-base.emailSend",
+    "n8n-nodes-base.stickyNote",
+    "n8n-nodes-base.httpRequest"
+  ],
+  "author": {
+    "name": "Cheng Siong Chin",
+    "username": "cschin",
+    "avatar": "https://gravatar.com/avatar/54544f98e839bb9dd9a764ad1e6823eeddb6db5138d201e42f291a7b0a73303f?r=pg&d=retro&size=200",
+    "verified": true
+  },
+  "popularity": 22,
+  "visitors": 22,
+  "inserters": 7,
+  "templateUrl": "https://n8n.io/workflows/12537",
+  "readme": "",
+  "thumbnail": "https://supabase.amastuces.com/storage/v1/object/public/worklowscreenshot/12537-run-multi-model-research-analysis-and-email-reports-with-gpt-4--claude-and-nvidia-nim.webp",
+  "complexityLevel": "advanced",
+  "templateData": null,
+  "price": 0,
+  "referalUrl": null
+}
